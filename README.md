@@ -1,1 +1,42 @@
-# Blogging
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
+## About Project
+
+- Deploy the Laravel framework 
+- Make entities (tables): User, Blog,Reply,Like.
+- Implement CRUD
+- The user must be able to upload photos
+- Display data in the table view, you can use ready-made css frameworks, such as Bootstrap
+- show count of all comment,like,reply
+
+
+## Setup  Project
+
+Clone project by this command
+- git clone (https://github.com/shubham2000-pan/Blogging.git) 
+
+update composer 
+- composer update
+
+migrate command will create database tables .
+- php artisan migrate
+
+Other way to sql file in databse folder to import.
+
+Run project
+- php artisan serve
+
+
+
+## Developer
+- Shubham pandey
+- shubham.apn2018@gmail.com
+
+
